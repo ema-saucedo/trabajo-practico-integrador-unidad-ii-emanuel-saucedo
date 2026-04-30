@@ -41,7 +41,7 @@
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="dropInstitucional" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                         Institucional
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropInstitucional">
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropInstitucional">
                         <li><a class="dropdown-item" href="reseñahistorica.html">Reseña Histórica</a></li>
                         <li><a class="dropdown-item" href="autoridades.html">Autoridades</a></li>
                         <li><hr class="dropdown-divider"></li>
@@ -53,7 +53,7 @@
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="dropCarreras" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Ofertas Académicas
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropCarreras">
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropCarreras">
                         <li><a class="dropdown-item" href="quimicaindustrial.html">Tecnicatura Superior en Química Industrial</a></li>
                         <li><a class="dropdown-item" href="desarrollosoftware.html">Tecnicatura Superior en Desarrollo de Software y Multiplataforma</a></li>
                         <li><a class="dropdown-item" href="telecomunicaciones.html">Tecnicatura Superior en Telecomunicaciones</a></li>
@@ -71,9 +71,72 @@
     </div>
 </nav>
     </header>
-    <main>
-       <section>
-        <h1></h1>
+   <main>
+       <section class="container my-5 text-center">
+        <!-- Información del index-->
+        <h1 class="display-4 font">Bienvenidos al Instituto Politécnico Formosa</h1>
+        <p class="lead mt-3">Somos una institución educativa de vanguardia dedicada a la formación de profesionales técnicos altamente capacitados para el desarrollo tecnológico de nuestra región.</p>
+        
+        <!-- <Carousel  -->
+        <div id="carouselExample" class="carousel slide my-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/img2.jpg" class="d-block w-100" alt="IPF 1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/img1.jpg" class="d-block w-100" alt="IPF 2">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/comedoripf.jpg" class="d-block w-100" alt="IPF 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/edificioipf.jpg" class="d-block w-100" alt="IPF 4">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/img3.jpg" class="d-block w-100" alt="IPF 5">
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+            </div>
+        </div>
+
+        <!-- Sección de Cards -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Institucional</h5>
+                        <p class="card-text">Conocé nuestra historia, misión y visión como pilar educativo de Formosa.</p>
+                        <a href="institucional.html" class="btn btn-ipf">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Oferta Académica</h5>
+                        <p class="card-text">Explorá nuestras 4 tecnicaturas superiores diseñadas para el mercado laboral actual.</p>
+                        <a href="carreras.html" class="btn btn-ipf">Ver carreras</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Contacto</h5>
+                        <p class="card-text">Comunicate con nosotros para recibir asesoramiento sobre inscripciones y requisitos.</p>
+                        <a href="contacto.html" class="btn btn-ipf">Escribinos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
       </section>
     </main>
 
