@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPF</title>
+    <!-- LINK DE bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- LINK DE ESTILO PROPIO DE LA PAGINA INDEX -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="icon" type="image/png" href="assets/img/logopagina.png" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assets/img/logo.png"
+              width="150px"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <!-- Inicio -->
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-dark"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+
+              <!-- Institucional-->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  id="dropInstitucional"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Institucional
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="dropInstitucional"
+                >
+                  <li>
+                    <a class="dropdown-item" href="reseñahistorica.html"
+                      >Reseña Histórica</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="autoridades.html"
+                      >Autoridades</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                </ul>
+              </li>
+
+              <!--Carreras -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark"
+                  href="#"
+                  id="dropCarreras"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Ofertas Académicas
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="dropCarreras"
+                >
+                  <li>
+                    <a class="dropdown-item" href="quimicaindustrial.html"
+                      >Tecnicatura Superior en Química Industrial</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="desarrollosoftware.html"
+                      >Tecnicatura Superior en Desarrollo de Software y
+                      Multiplataforma</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="telecomunicaciones.html"
+                      >Tecnicatura Superior en Telecomunicaciones</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="mecatronica.html"
+                      >Tecnicatura Superior en Mecatrónica</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contacto-->
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="contacto.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- CONTENIDO OBLIGATORIO -->
+      <!-- SECCIÓN HISTORIA -->
+      <section class="py-5">
+        <div class="container">
+          <h1 class="display-5 fw-bold text-success text-center mb-4">
+            Historia
+          </h1>
+          <p class="mt-4 fs-5 text-secondary">
+            Todo empezó en 2013 con la idea de armar un Polo Científico en
+            Formosa. En ese momento se dieron cuenta de que necesitaban gente
+            bien capacitada para manejar las máquinas y la tecnología que se
+            venía. Después de investigar planes de estudio de todo el mundo, en
+            2018 se creó oficialmente el Instituto Politécnico Formosa por
+            decreto provincial. El objetivo era claro: que el estudio y la
+            práctica vayan de la mano para que los alumnos salgan listos para
+            trabajar en la industria. La primera carrera en arrancar fue
+            Mecatrónica el 19 de marzo de ese mismo año, con apenas 40 alumnos.
+            Desde entonces, el IPF no paró de crecer, formando técnicos que
+            saben configurar, supervisar y arreglar equipos de alta tecnología
+            en toda la región.
+          </p>
+        </div>
+      </section>
+
+      <!-- SECCIÓN MISIÓN Y VISIÓN-->
+      <section class="py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <!-- Misión -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-center mb-3">
+                    <h2 class="card-title fw-bold text-success mb-0">Misión</h2>
+                  </div>
+                  <p class="card-text text-secondary">
+                    La misión del Instituto Politécnico Formosa es proporcionar
+                    una formación técnica superior integral y de excelencia,
+                    orientada al desarrollo de competencias profesionales que
+                    respondan a las demandas del sistema socioproductivo local y
+                    regional. Buscamos promover la innovación técnica y el
+                    compromiso social en nuestros egresados para contribuir al
+                    crecimiento sostenible de Formosa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+          <!-- Visión -->
+          <div class="col-md-6 mb-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <h2 class="fw-bold text-success">Visión</h2>
+                </div>
+                <p class="p-3">
+                  Ser la institución de educación técnica superior referente en
+                  la región, reconocida por su calidad académica, su vinculación
+                  con el sector tecnológico-productivo y su capacidad de
+                  adaptación a los cambios constantes de la industria global.
+                  Aspiramos a liderar los procesos de formación en nuevas
+                  tecnologías y a ser el motor de transformación del talento
+                  humano formoseño.
+                </p>
+              </div>
+            </div>
+        </div>  
+        </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="py-4 bg-dark text-white">
+      <div class="container text-center">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item px-2">Ruta Nac. 81 km. 1190</li>
+          <li class="nav-item px-2">|</li>
+          <li class="nav-item px-2">info@ipf.edu.ar</li>
+          <li class="nav-item px-2">|</li>
+          <li class="nav-item px-2">WhatsApp: 3704860530</li>
+        </ul>
+        <p class="mb-0">
+          © 2026 Instituto Politécnico Formosa. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
