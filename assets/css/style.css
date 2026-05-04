@@ -6,7 +6,6 @@
     background: linear-gradient(90deg, #1b4332 0%, #2d6a4f 100%) !important;
 }
 
-/* Cambia los textos del menú a blanco para que se lean bien */
 .nav-link {
     color: white !important;
 }
@@ -58,19 +57,5 @@ h1 {
 }
 
 body main {
-    background-color: #f8f9fa; /* Un gris casi blanco para dar contraste */
-}
-
-/* Y a las tarjetas dales un borde verde */
-.card {
-    border-top: 5px solid #1b4332;
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px); /* Un pequeño movimiento al pasar el mouse */
-}
-
-h1, h2 {
-    color: #1b4332;
+    background-color: #f8f9fa; 
 }
