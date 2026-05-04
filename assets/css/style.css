@@ -59,3 +59,17 @@ h1 {
 body main {
     background-color: #f8f9fa; 
 }
+
+
+.card {
+    border-top: 5px solid #1b4332;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h1, h2 {
+    color: #1b4332;
+}
